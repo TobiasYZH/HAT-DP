@@ -1,0 +1,6 @@
+blobfile
+mpi4py
+numpy
+pillow
+torch
+torchvision

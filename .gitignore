@@ -1,0 +1,57 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Logs and temporary outputs
+*.log
+runs/
+outputs/
+samples/
+logs/
+
+# Model checkpoints and weights
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+checkpoints/
+models/
+
+# Datasets and archives
+CIFAR10/
+cifar10/
+cifar-10-batches-py/
+*.tar
+*.tar.gz
+*.zip
+*.rar
+
+# Experiment artifacts
+*.xlsx
+*.xls
+*.csv
+*.png
+*.jpg
+*.jpeg
+
+# Project-specific private entry points
+diffusion.py
+train_addt.py
+run.py
+run_*.py
+test.py
+sweep*.py
+bpda_eot_attack.py
+
+# Local editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
