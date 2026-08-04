@@ -400,7 +400,7 @@ if __name__ == "__main__":
     parser.add_argument("--alpha", type=float, default=2 / 255)
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--purify-ensemble", type=int, default=4)
-    parser.add_argument("--diffusion-checkpoint", type=str, default="checkpoints/strong_supervised_addt_latest2_last.pt")
+    parser.add_argument("--diffusion-checkpoint", type=str, default="checkpoints/CIFAR10_Trained.pt")
     parser.add_argument("--aa-linf-eps", type=float, default=8 / 255)
     parser.add_argument("--aa-l2-eps", type=float, default=0.5)
     parser.add_argument("--bpda-eps", type=float, default=8 / 255)
