@@ -18,9 +18,9 @@ pip install -r requirements.txt
 ## Pre-trained Models
 You can download pretrained models here:
 
-- DDPM on ImageNet https://github.com/openai/guided-diffusion
+- DDPM on ImageNet [https://github.com/openai/guided-diffusion](https://github.com/openai/guided-diffusion)
   -  checkpoint [256x256_diffusion_uncond.pt](https://openaipublic.blob.core.windows.net/diffusion/jul-2021/256x256_diffusion_uncond.pt)
-- DDPM on Cifar10 https://github.com/openai/improved-diffusion
+- DDPM on Cifar10 [https://github.com/openai/improved-diffusion](https://github.com/openai/improved-diffusion)
   - checkpoint [cifar10_uncond_50M_500K.pt](https://openaipublic.blob.core.windows.net/diffusion/march-2021/cifar10_uncond_50M_500K.pt)
 
 ## Citation
