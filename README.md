@@ -1,27 +1,25 @@
-# project01
+# HAT-DP
 
-Common diffusion-model utilities for image robustness research.
+This repository contains the implementation accompanying the paper **“A Hierarchical Adversarial Training Framework for Diffusion Purifier Adaptation.”**
 
-This public snapshot intentionally contains only reusable infrastructure code.
-Project-specific training, evaluation, purification, checkpoints, datasets, and
-experiment result files are excluded.
+HAT-DP adapts a pretrained diffusion purifier with hierarchical adversarial threats while keeping the target classifier frozen.
 
-## Included
+## Repository structure
 
-- `improved_diffusion/`: reusable diffusion model components, schedules,
-  UNet definitions, samplers, logging, and training utilities.
+- `CIFAR10/`: CIFAR-10 experiments and diffusion-purifier implementation.
+- `ImageNet/`: ImageNet experiments and guided-diffusion implementation.
+- `requirements.txt`: core Python dependencies.
 
-## Excluded
-
-- project-specific entry points such as `run.py`, `diffusion.py`, and
-  `train_addt.py`
-- model checkpoints and weights
-- datasets and downloaded archives
-- experiment spreadsheets and local caches
-
-## Install
+## Installation
 
 ```bash
 pip install -r requirements.txt
 ```
 
+## Checkpoints and data
+
+Model checkpoints, pretrained weights, datasets, generated samples, and experiment outputs are not included in this repository. Place the required checkpoints and datasets at the paths expected by the corresponding scripts before running training or evaluation.
+
+## Citation
+
+Citation information will be added after publication.
