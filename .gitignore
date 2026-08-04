@@ -8,7 +8,7 @@ __pycache__/
 venv/
 env/
 
-# Logs and temporary outputs
+# Logs and generated outputs
 *.log
 runs/
 outputs/
@@ -24,9 +24,8 @@ checkpoints/
 models/
 
 # Datasets and archives
-CIFAR10/
-cifar10/
 cifar-10-batches-py/
+ILSVRC*/
 *.tar
 *.tar.gz
 *.zip
@@ -36,22 +35,9 @@ cifar-10-batches-py/
 *.xlsx
 *.xls
 *.csv
-*.png
-*.jpg
-*.jpeg
-
-# Project-specific private entry points
-diffusion.py
-train_addt.py
-run.py
-run_*.py
-test.py
-sweep*.py
-bpda_eot_attack.py
 
 # Local editor and OS files
 .vscode/
 .idea/
 .DS_Store
 Thumbs.db
-
