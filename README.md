@@ -16,9 +16,6 @@ HAT-DP adapts a pretrained diffusion purifier with hierarchical adversarial thre
 pip install -r requirements.txt
 ```
 
-## Checkpoints and data
-
-Model checkpoints, pretrained weights, datasets, generated samples, and experiment outputs are not included in this repository. Place the required checkpoints and datasets at the paths expected by the corresponding scripts before running training or evaluation.
 
 ## Citation
 
